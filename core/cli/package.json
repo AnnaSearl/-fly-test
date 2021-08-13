@@ -1,6 +1,6 @@
 {
   "name": "@fly-test/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "emmm <1029846268@qq.com>",
   "homepage": "",
@@ -20,8 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@fly-test/log": "file:../../utils/log",
     "@fly-test/get-npm-info": "file:../../utils/get-npm-info",
+    "@fly-test/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "import-local": "^3.0.2",
